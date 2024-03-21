@@ -1,0 +1,13 @@
+workspace = { members = ["example"] }
+[package]
+name = "ch341-sys"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+
+# [target.'cfg(windows)'.dependencies]
+# windows = "0.54"
+
+[build-dependencies]
+# bindgen = "0.69"
